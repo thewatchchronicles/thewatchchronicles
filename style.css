@@ -1,3 +1,5 @@
+
+
 /* reset default browser styles */
 * {
   box-sizing: border-box;
@@ -13,13 +15,29 @@ body {
 }
 
 header {
-  background-color: #1d1d1d;
-  padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+}
+
+.header-container {
+  background-color: #1d1d1d;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   border-bottom: 1px solid #333333;
-  position: relative;
+  width: 100%;
+  z-index: 100;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -32,9 +50,6 @@ header {
     margin-top: 20px;
   }
 }
-
-
-
 
 /* set logo styles */
 header h1 {
@@ -116,21 +131,13 @@ article p {
   }
 }
 
-
-
 a {
 	color: #7DF9FF;
 }
-header {
-	position: fixed;
-	top: 0;
-	width: 100%;
-	padding: 20px;
-}
-body {
-	margin-top: 100px;
-}
 
+body {
+	margin-top: 0px;
+}
 
 .container {
 	display: flex;
@@ -138,16 +145,15 @@ body {
 	align-items: center;
 	height: 1vh;
 }
+
 form {
 	display: flex;
 	align-items: center;
 }
+
 label {
 	margin-right: 10px;
 }
-
-
-
 
 .featured {
   padding: 20px;
@@ -156,16 +162,10 @@ label {
   margin-bottom: 20px;
 }
 
-
-
-
 button.shuffle:focus + section.featured {
   border: none;
   box-shadow: none;
 }
-
-
-
 
 img {
   max-width: 100%;
