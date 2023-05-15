@@ -41,26 +41,28 @@
 	</script>
 </head>
 <body>
-	<div class="container">
-		<form>
-			<label for="searchInput">Search:</label>
-			<input type="search" id="searchInput" onkeyup="search()" placeholder="Search for titles">
-		</form>
-		<button class="shuffle" onclick="shuffleArticles()" aria-label="Shuffle articles">Shuffle</button>
+	<div class="header-container">
+		<header>
+			<h1><a href="home.html" style="text-decoration: none;">The Watch Chronicles</a></h1>
+			<nav>
+				<div class="nav-container">
+					<ul>
+						<li><a href="home.html">Home</a></li>
+						<li><a href="watch-reviews.html">Watch Reviews</a></li>
+						<li><a href="guides.html">Guides</a></li>
+						<li><a href="about-us.html">About us</a></li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<div class="container">
+			<form>
+				<label for="searchInput">Search:</label>
+				<input type="search" id="searchInput" onkeyup="search()" placeholder="Search for titles">
+			</form>
+			<button class="shuffle" onclick="shuffleArticles()" aria-label="Shuffle articles">Shuffle</button>
+		</div>
 	</div>
-	<header>
-		<h1><a href="/" style="text-decoration: none;">The Watch Chronicles</a></h1>
-		<nav>
-			<div class="nav-container">
-				<ul>
-					<li><a href="/">Home</a></li>
-					<li><a href="watch-reviews.html">Watch Reviews</a></li>
-					<li><a href="guides.html">Guides</a></li>
-					<li><a href="about-me.html">About me</a></li>
-				</ul>
-			</div>
-		</nav>
-	</header>
 	<main>
 		<section class="featured">
 			<article>
