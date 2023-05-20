@@ -179,3 +179,10 @@ img {
 h1 a {
   color: white;
 }
+
+
+
+.article-date {
+  font-style: italic;
+  text-align: right;
+}
