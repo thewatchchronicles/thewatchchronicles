@@ -1,0 +1,17 @@
+.article-info {
+  display: none; /* hide the element by default */
+}
+
+@media only screen and (min-width: 768px) {
+  .article-info {
+    display: block; /* show the element for desktop users */
+    position: fixed;
+    top: 50px;
+    left: 20px;
+    /*width: 600px;
+	height: 200px;*/
+    background-color: #525252;
+    padding: 10px; /* add some padding */
+    border: 1px solid #ccc; /* add a border */
+  }
+}
