@@ -186,3 +186,79 @@ h1 a {
   font-style: italic;
   text-align: right;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* reset default browser styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* set body background and text color */
+body {
+  background-color: #2c2c2c;
+  color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+/* ... rest of your CSS code ... */
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 1.2em; /* Increase the base font size on mobile devices */
+  }
+
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav {
+    margin-top: 20px;
+  }
+}
+
+/* ... rest of your CSS code ... */
+
+
+
+
